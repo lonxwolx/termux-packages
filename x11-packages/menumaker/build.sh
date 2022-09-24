@@ -1,0 +1,9 @@
+TERMUX_PKG_HOMEPAGE=http://menumaker.sourceforge.net
+TERMUX_PKG_DESCRIPTION="Menu generation utility for X window managers on *NIX systems"
+TERMUX_PKG_LICENSE="BSD"
+TERMUX_PKG_MAINTAINER="@termux"
+TERMUX_PKG_VERSION=0.99.14
+TERMUX_PKG_SRCURL=https://sourceforge.net/projects/menumaker/files/menumaker-${TERMUX_PKG_VERSION}.tar.gz
+TERMUX_PKG_SHA256=11e95d0e76a3b850f57df81bc5560222bd60141c5751b6e9bd05c3cd5560d65a
+TERMUX_PKG_DEPENDS="python"
+TERMUX_PKG_BUILD_IN_SRC=true
