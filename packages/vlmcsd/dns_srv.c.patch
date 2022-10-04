@@ -1,0 +1,13 @@
+diff --git a/src/dns_srv.c b/src/dns_srv.c
+index a4e92fe..a8543ec 100644
+--- a/src/dns_srv.c
++++ b/src/dns_srv.c
+@@ -25,7 +25,7 @@
+  //#ifndef DNS_PARSER_INTERNAL
+ #if __ANDROID__
+ #include <netinet/in.h>
+-#include "nameser.h"
++#include <arpa/nameser.h>
+ #include "resolv.h"
+ #else // other Unix non-Android
+ #include <netinet/in.h>
